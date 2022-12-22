@@ -9,4 +9,4 @@ const client = new Discord.Client({
     ]
 })
 
-client.login("MTA1NTQ2NzIwMjU5NTI3ODg3OA.GzOrVV.S3Qa6UBCATMzjkruLYvcorVuhSvI07RZ9Xscdw")
+client.login(process.env.token)
